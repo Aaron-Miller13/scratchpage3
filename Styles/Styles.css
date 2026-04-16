@@ -1,0 +1,53 @@
+.background {
+    background-color: #f2ba02;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.aaron {
+    color: #aa0a0a;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.upperbox {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.middlebox {
+    top: 120px;
+    left: 5px;
+    right: 5px;
+    bottom: 120px;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+
+.lowerbox {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: auto;
+
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
