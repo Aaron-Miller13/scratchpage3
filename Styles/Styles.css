@@ -39,6 +39,12 @@
     
 }
 
+.backtotop {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
 .lowerbox {
     bottom: 5px;
     left: 5px;
@@ -48,6 +54,7 @@
     border: 2px solid black;
     padding: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
